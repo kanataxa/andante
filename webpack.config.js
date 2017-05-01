@@ -35,7 +35,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      'materialize': './node_modules/materialize-css/bin/materialize.js',
     }
   },
   devServer: {
