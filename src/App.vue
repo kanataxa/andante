@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <andante-header></andante-header>
-    <div class='container'>
-    <h2>~ララへの愛を添えて~</h2>
-    </div>
+      <andante></andante>
     <andante-footer></andante-footer>
   </div>
 </template>
@@ -11,6 +9,7 @@
 <script>
 import AndanteFooter from  './components/Footer.vue'
 import AndanteHeader from  './components/Header.vue'
+import Andante from  './components/Message.vue'
 export default {
   name: 'app',
   data () {
@@ -18,7 +17,7 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  components: { AndanteFooter, AndanteHeader }
+  components: { AndanteFooter, AndanteHeader, Andante }
 }
 </script>
 
