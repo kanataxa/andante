@@ -6,13 +6,13 @@
     "background_color": "#2196F3",
     "icons": [
         {
-            "src": "/logo.png",
+            "src": "logo.png",
             "type": "image/png",
             "sizes": "144x144"
         }
     ],
-    "Scope": "/",
-    "start_url": "/",
+    "Scope": "/andante/",
+    "start_url": "https://kanataxa.github.io/andante/",
     "display": "fullscreen",
     "orientation": "landscape"
 }
