@@ -3,7 +3,7 @@ export default {
         if (!navigator.serviceWorker) {
             return;
         }
-        navigator.serviceWorker.register('./sw.js', { scope: '/andante/' })
+        navigator.serviceWorker.register('sw.js', /*{ scope: '/andante/' }*/)
             .catch(e => { console.log(e); });
     }
 }
